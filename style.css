@@ -8,5 +8,11 @@ body {
   box-sizing: border-box;
 }
 img {
-  transform: translateX(200px);
+  /* transform: translateX(200px); */
+  transform: translate(10px,100px);
+  /* transform: scale(0.5); */
+  /* transform: scaleX(3); */
+  transform: scale(1.2,0.8);
+  /* rotateX and Y ==> we cant see 3D , but we can see rotate around Z; */
+  transform: rotate(90deg) translateX(200px)
 }
