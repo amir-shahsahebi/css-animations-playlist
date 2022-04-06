@@ -1,18 +1,34 @@
 body {
-  background:  lightblue;
+  background: lightblue;
   text-align: center;
 }
-.wrapper{
+.wrapper {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
 }
+.circle {
+  width: 100px;
+  padding: 50px 0;
+  line-height: 0;
+  margin: 50px auto;
+  background: pink;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  /* transition: 1s; */
+  transition: background 1s, transform 1s 1s ease-in;
+}
+.circle:hover{
+  background: salmon;
+  transform: rotate(360deg);
+}
 img {
   /* transform: translateX(200px); */
-  transform: translate(10px,100px);
+  /* transform: translate(10px,100px); */
   /* transform: scale(0.5); */
   /* transform: scaleX(3); */
-  transform: scale(1.2,0.8);
+  /* transform: scale(1.2,0.8); */
   /* rotateX and Y ==> we cant see 3D , but we can see rotate around Z; */
-  transform: rotate(90deg) translateX(200px)
+  /* transform: rotate(90deg) translateX(200px) */
 }
